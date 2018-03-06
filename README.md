@@ -2,7 +2,7 @@ HN tops topics
 ==============
 Command line tool for scrapping https://news.ycombinator.com and filtering by a group of keywords.
 
-### Dependences
+### Dependencies
 * request_html
 * colorconsole
 
