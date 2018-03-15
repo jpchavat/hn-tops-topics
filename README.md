@@ -20,4 +20,4 @@ $ python hn-tops-topic.py "python,bitcoin,mozilla,machine learning,ai,uruguay" -
 
 ☼ Feel free to use ☼
 
-![https://www.buymeacoffee.com/jpcoffee](https://image.ibb.co/jMMG2x/Buy_Me_ACoffee_general.jpg)
+[![Buy me a coffe](https://image.ibb.co/jMMG2x/Buy_Me_ACoffee_general.jpg)](https://www.buymeacoffee.com/jpcoffee)
