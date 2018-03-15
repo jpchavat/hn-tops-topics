@@ -19,3 +19,5 @@ $ python hn-tops-topic.py "python,bitcoin,mozilla,machine learning,ai,uruguay" -
 ![Excecution example](docs/result_2018-03-05.png)
 
 ☼ Feel free to use ☼
+
+![https://www.buymeacoffee.com/jpcoffee](https://image.ibb.co/jMMG2x/Buy_Me_ACoffee_general.jpg)
