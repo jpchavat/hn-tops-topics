@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf8 -*-
 
 import requests_html
@@ -6,10 +7,12 @@ from collections import defaultdict
 import re
 
 import argparse
-parser = argparse.ArgumentParser(description='Scrap the tops news by topics. By @jupachuy', prog='hn-tops-topic')
-parser.add_argument('--max-pages', help='maximum amount of pages to scrap', default=3, type=int)
-parser.add_argument('--max-news', help='maximum amount of news to scrap', default=15, type=int)
-parser.add_argument('keywords', help='list of keywords to search while scrapping', metavar='str')
+parser = argparse.ArgumentParser(description='#   hn-tops-topics - Scrap the tops HN news and filters by topics\n'
+                                             '#\n'
+                                             '#   Author:  @jupachuy - github.com/jpchavat', prog='hn-tops-topic\n')
+parser.add_argument('-p', '--max-pages', help='maximum amount of pages to scrap', default=3, type=int)
+parser.add_argument('-n', '--max-news', help='maximum amount of news to scrap', default=15, type=int)
+parser.add_argument('keywords', help='list of keywords to search while scrapping')
 args = parser.parse_args()
 
 #KEYWORDS = 'python,golang,bitcoin,ripple,xrp,stellar,xlm,crypto,uruguay'
@@ -25,7 +28,7 @@ def itruncate(string, width):
 # Screen confs
 screen = terminal.get_terminal()
 screen.clear()
-screen.set_title("HN tops topic")
+screen.set_title("HN tops topics")
 current_line = 0
 def get_current_line():
     global current_line
